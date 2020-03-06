@@ -52,9 +52,9 @@ section.cover-form{
 }
 
 .icone-seta{
-	position: absolute;
+	position: relative;
 	left: 50%;
-	top: 625px;
+	top: -32px;
 	transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
 	width: 64px;
@@ -131,6 +131,7 @@ section.cover-form{
 }
 
 section.chamada{
+	margin-top: -70px;
 	z-index: 1;
 	width: 100%;		
 	text-align: center;	
@@ -211,9 +212,6 @@ footer img{
 		display: inline-block;
 	}
 
-	.icone-seta{
-		top: 700px; 
-	}
 }
 
 @media screen and (max-width: 768px){
@@ -233,9 +231,6 @@ footer img{
 		width: 100%;
 	}
 
-	.icone-seta{
-		top: 700px; 
-	}
 }
 
 @media screen and (max-width: 510px){
@@ -250,14 +245,3 @@ footer img{
 		float: none;
 	}
 
-	.icone-seta{
-		top: 790px; 
-	}
-
-}
-
-@media screen and (max-width: 320px){
-	.icone-seta{
-		top: 820px;
-	}
-}
