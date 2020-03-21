@@ -34,11 +34,10 @@ header .logo{
 	top: -10px;
 	width: 160px;
 	height: 40px;
-	background-image: url('../imagens/logo-danki.png');
+	background: #4b2f75;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-color: transparent;
 	float: left;
 }
 
