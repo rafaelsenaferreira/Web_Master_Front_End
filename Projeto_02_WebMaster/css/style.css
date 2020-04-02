@@ -29,8 +29,7 @@ header{
 	float: left;
 	width: 150px;
 	height: 60px;
-	/*background-color: purple;*/
-	background-image: url(../imagens/logo1.png);
+	background-color: grey;
 	background-size: 100% auto;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -40,11 +39,10 @@ header{
 	float: right;
 	width: 160px;
 	height: 60px;
-	background-image: url(../imagens/logo2.png);
 	background-size: 100% auto;
 	background-position: center;
 	background-repeat: no-repeat;
-	/*background-color: green;*/
+	background-color: green;
 }
 
 section.cover-form{
