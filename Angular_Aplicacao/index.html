@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Angular JS</title>
+</head>
+<body>
+
+<div ng-app="myShoppingList" ng-controller="myCtrl">  
+  	<!--Aqui é um looping, a variavel x sempre irá pegar o proximo array-->
+  	<ul>
+    	<li ng-repeat="x in products">
+    	{{x}}
+
+    	<!--$index é o indice-->
+    	<span ng-click="removeItem($index)">&times;</span>
+   		</li>
+	</ul>
+	<!--colocar o ng-model é importante-->
+	<input ng-model="item">
+	<button ng-click="addItem()">Adicionar no carrinho!</button>	
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="app.js"></script>
+	<script>
+
+	</script>
+</body>
+</html>
